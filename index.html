@@ -348,9 +348,52 @@
                 </svg>
             </button>
 
+            
+
+            <form class="form js-speaker-form">
+
+                <h2 class="modal-title">Оставьте свои данные, мы вам перезвоним</h2>
+                
+                <div class="form-field">
+                    <label for="name" class="form-label">Имя</label>
+                    <input type="text" name="user-name" id="name" class="form-input">
+                    <svg width="18px" height="18px" class="icon">
+                            <use href="./images/svg/symbol-defs.svg#person-black"></use>
+                    </svg>
+                </div>
+
+                <div class="form-field">
+                    <label for="phone" class="form-label">Телефон</label>
+                    <input type="tel" name="tel" id="phone" class="form-input">
+                    <span class="icon"><svg width="18px" height="18px">
+                            <use href="./images/svg/symbol-defs.svg#phone-black"></use>
+                        </svg></span>
+                </div>
+
+                <div class="form-field">
+                    <label for="email" class="form-label">Почта</label>
+                    <input type="email" name="mail" id="email" class="form-input">
+                    <span class="icon"><svg width="18px" height="18px">
+                            <use href="./images/svg/symbol-defs.svg#email-black"></use>
+                        </svg></span>
+                </div>
+
+                <div class="form-field">
+                    <label for="comment" class="form-label">Комментарий</label>
+                    <textarea name="comment" id="comment" rows="10" placeholder="Введите текст" class="form-area"></textarea>
+                </div>
+
+                <input type="checkbox" name="policy id="policy">
+                <label for="policy" class="form-label">Соглашаюсь с рассылкой и принимаю Условия договора</label>
+
+                <button type="submit">Отправить</button>
+
+            </form>
+
         </div>
     </div>
 
     <script src="./js/modal.js"></script>
+    <script src="./js/js-speaker-form.js"></script>
 </body>
 </html>
